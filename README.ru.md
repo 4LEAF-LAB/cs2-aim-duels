@@ -87,9 +87,32 @@
 
 ---
 
-# Скриншоты
+# Скриншоты & Видео
 
-> Скриншоты и превью геймплея будут добавлены позже.
+<table align="center">
+  <tr>
+    <td colspan="2" align="center">
+      <a href="https://youtu.be/RqsnSTTK5cw">
+        <img
+          src="https://img.youtube.com/vi/RqsnSTTK5cw/maxresdefault.jpg"
+          alt="Demo Video"
+          width="700">
+      </a>
+      <br>
+      <b>▶️ Нажмите на превью, чтобы перейти к видео</b>
+    </td>
+  </tr>
+
+  <tr>
+    <td><img src="https://i.imgur.com/QAW4E9x.jpeg" width="340"></td>
+    <td><img src="https://i.imgur.com/s6iAHTJ.png" width="340"></td>
+  </tr>
+
+  <tr>
+    <td><img src="https://i.imgur.com/OmxdbMD.jpeg" width="340"></td>
+    <td><img src="https://i.imgur.com/PcQmGTn.jpeg" width="340"></td>
+  </tr>
+</table>
 
 ---
 
@@ -240,8 +263,17 @@ AIM DUELS - современный плагин **Arena Duels 1v1** для **Cou
 <div align="center">
 
 <img src="https://img.shields.io/badge/METAMOD-REQUIRED-blue?style=flat-square&labelColor=1c1c1c">
+<img src="https://img.shields.io/badge/UTILS-REQUIRED-blue?style=flat-square&labelColor=1c1c1c">
 <img src="https://img.shields.io/badge/MENUS_EXPORT-INCLUDED-success?style=flat-square&labelColor=1c1c1c">
 <img src="https://img.shields.io/badge/COUNTERSTRIKESHARP-REQUIRED-blue?style=flat-square&labelColor=1c1c1c">
+
+<p>
+    
+<b>METAMOD LINK:</b> https://github.com/alliedmodders/metamod-source</br>
+<b>UTILS LINK:</b> https://github.com/Pisex/cs2-menus</br>
+<b>COUNTERSTRIKESHARP</b> LINK: https://github.com/roflmuffin/CounterStrikeSharp
+
+</p>
 
 </div>
 
