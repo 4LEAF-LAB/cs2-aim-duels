@@ -20,7 +20,7 @@ A feature-rich plugin for Counter-Strike 2, designed for building modern servers
     <img src="https://img.shields.io/badge/CounterStrikeSharp-Latest-blue?style=for-the-badge&labelColor=1c1c1c">
     <img src="https://img.shields.io/badge/License-Commercial-orange?style=for-the-badge&labelColor=1c1c1c">
     <img src="https://img.shields.io/badge/Status-Active_Development-brightgreen?style=for-the-badge&labelColor=1c1c1c">
-    <a href="https://discord.gg/MBbAZjtPRs"><img src="https://img.shields.io/badge/Support-Discord-5865F2?style=for-the-badge&labelColor=1c1c1c&logo=discord&logoColor=white"></a>
+    <a href="https://discord.gg/Kwrxj5SBc2"><img src="https://img.shields.io/badge/Support-Discord-5865F2?style=for-the-badge&labelColor=1c1c1c&logo=discord&logoColor=white"></a>
 </p>
 
 <p>
@@ -50,7 +50,7 @@ A feature-rich plugin for Counter-Strike 2, designed for building modern servers
 > - Technical support
 > - Future releases
 >
-> **Discord:** https://discord.gg/MBbAZjtPRs
+> **Discord:** https://discord.gg/Kwrxj5SBc2
 
 ---
 
@@ -287,10 +287,10 @@ Performance was one of the main goals during development.
 >
 > To purchase a license, receive updates, or contact support, join our official Discord server.
 >
-> **Discord:** https://discord.gg/MBbAZjtPRs
+> **Discord:** https://discord.gg/Kwrxj5SBc2
 
 <div align="center">
-    <a href="https://discord.gg/MBbAZjtPRs"><img src="https://img.shields.io/badge/Join_Discord-5865F2?style=for-the-badge&labelColor=1c1c1c&logo=discord&logoColor=white"></a>
+    <a href="https://discord.gg/Kwrxj5SBc2"><img src="https://img.shields.io/badge/Join_Discord-5865F2?style=for-the-badge&labelColor=1c1c1c&logo=discord&logoColor=white"></a>
 </div>
 
 ---
