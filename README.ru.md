@@ -20,7 +20,7 @@
     <img src="https://img.shields.io/badge/CounterStrikeSharp-Latest-blue?style=for-the-badge&labelColor=1c1c1c">
     <img src="https://img.shields.io/badge/License-Commercial-orange?style=for-the-badge&labelColor=1c1c1c">
     <img src="https://img.shields.io/badge/Status-Active_Development-brightgreen?style=for-the-badge&labelColor=1c1c1c">
-    <a href="https://discord.gg/MBbAZjtPRs"><img src="https://img.shields.io/badge/Support-Discord-5865F2?style=for-the-badge&labelColor=1c1c1c&logo=discord&logoColor=white"></a>
+    <a href="https://discord.gg/Kwrxj5SBc2"><img src="https://img.shields.io/badge/Support-Discord-5865F2?style=for-the-badge&labelColor=1c1c1c&logo=discord&logoColor=white"></a>
 </p>
 
 <p>
@@ -50,7 +50,7 @@
 > - Технической поддержке
 > - Будущим релизам
 >
-> **Discord:** https://discord.gg/MBbAZjtPRs
+> **Discord:** https://discord.gg/Kwrxj5SBc2
 
 ---
 
@@ -287,10 +287,10 @@ AIM DUELS - современный плагин **Arena Duels 1v1** для **Cou
 >
 > Чтобы купить лицензию, получать обновления или связаться с поддержкой, зайдите на наш официальный Discord-сервер.
 >
-> **Discord:** https://discord.gg/MBbAZjtPRs
+> **Discord:** https://discord.gg/Kwrxj5SBc2
 
 <div align="center">
-    <a href="https://discord.gg/MBbAZjtPRs"><img src="https://img.shields.io/badge/%D0%97%D0%B0%D0%B9%D1%82%D0%B8_%D0%B2_Discord-5865F2?style=for-the-badge&labelColor=1c1c1c&logo=discord&logoColor=white"></a>
+    <a href="https://discord.gg/Kwrxj5SBc2"><img src="https://img.shields.io/badge/%D0%97%D0%B0%D0%B9%D1%82%D0%B8_%D0%B2_Discord-5865F2?style=for-the-badge&labelColor=1c1c1c&logo=discord&logoColor=white"></a>
 </div>
 
 ---
