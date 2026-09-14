@@ -44,11 +44,11 @@ A feature-rich plugin for Counter-Strike 2, designed for building modern servers
 >
 > Purchasing a license grants access to:
 >
-> - Passwords for new plugin versions
-> - License activation
-> - Free updates
-> - Technical support
-> - Future releases
+> * Passwords for new plugin versions
+> * License activation
+> * Free updates
+> * Technical support
+> * Future releases
 >
 > **Discord:** https://discord.gg/Kwrxj5SBc2
 
@@ -67,21 +67,24 @@ A feature-rich plugin for Counter-Strike 2, designed for building modern servers
 
 <br>
 
-- [Screenshots](#screenshots)
-- [Overview](#overview)
-- [Features](#features)
-  - [Gameplay](#gameplay)
-    - [Personal Weapon Selection](#personal-weapon-selection)
-    - [Fast Opponent Matching](#fast-opponent-matching)
-    - [Private Duels](#private-duels)
-  - [Arena Management](#arena-management)
-  - [Developer Mode](#developer-mode)
-- [Performance](#performance)
-  - [Optimizations](#optimizations)
-- [Feature Summary](#feature-summary)
-- [Requirements](#requirements)
-- [Purchase](#purchase)
-- [License](#license)
+* [Screenshots](#screenshots)
+* [Overview](#overview)
+* [Features](#features)
+
+  * [Gameplay](#gameplay)
+
+    * [Personal Weapon Selection](#personal-weapon-selection)
+    * [Fast Opponent Matching](#fast-opponent-matching)
+    * [Private Duels](#private-duels)
+  * [Arena Management](#arena-management)
+  * [Developer Mode](#developer-mode)
+* [Performance](#performance)
+
+  * [Optimizations](#optimizations)
+* [Feature Summary](#feature-summary)
+* [Requirements](#requirements)
+* [Purchase](#purchase)
+* [License](#license)
 
 </details>
 
@@ -140,7 +143,19 @@ AIM DUELS is a modern **Arena Duels 1v1** plugin for **Counter-Strike 2**. The p
 
 Players can pick their preferred weapon through the standard buy menu (<kbd>B</kbd>).
 
+Weapons can also be changed using chat commands, such as `!ak47`, `!awp`, and others, or through the Duel menu.
+
+The Duel menu can be opened using either `!duel` or the shortened `!d` command.
+
+All three weapon selection methods are supported:
+
+* Standard buy menu
+* Chat commands
+* Duel menu
+
 The selected weapon is automatically used in subsequent duels.
+
+Weapon changes can be limited using a configurable cooldown interval.
 
 ### Fast Opponent Matching
 
@@ -149,6 +164,16 @@ An optimized player rotation system minimizes waiting time between duels when th
 ### Private Duels
 
 Players can create private duels by choosing an opponent and configuring the number of rounds.
+
+Private duel invitations have a configurable cooldown interval, which can also be disabled.
+
+Duel settings support multiple game modes, including:
+
+* **Standard** - 13 rounds, AK + Deagle
+* **Standard - Headshots Only** - body damage is disabled
+* **King of the Hill** - 1, 2, or 3 minutes, with the winner determined by frags
+* **Race for Glory** - 1, 2, or 3 minutes, with points awarded only for headshot kills
+* **Knife** - 3, 6, or 12 rounds, with all weapon selection blocked
 
 ---
 
@@ -160,17 +185,17 @@ Arena setup is performed directly in-game.
 <tr>
 <td valign="top" width="50%">
 
-- Creating new arenas
-- Editing spawn points
-- Teleporting to any spawn point
-- Switching between arenas
+* Creating new arenas
+* Editing spawn points
+* Teleporting to any spawn point
+* Switching between arenas
 
 </td>
 <td valign="top" width="50%">
 
-- Enabling and disabling arenas
-- No plugin reload required
-- No server restart required
+* Enabling and disabling arenas
+* No plugin reload required
+* No server restart required
 
 </td>
 </tr>
@@ -192,12 +217,15 @@ When enabled:
 </tr>
 </table>
 
+Arena management uses a complete **Arena -> Group -> Side** structure, allowing spawn points to be configured separately for CT and T sides.
+
 Every spawn point is automatically visualized with Terrorist and Counter-Terrorist agent models.
 
 Floating labels display:
 
-- Arena ID
-- Spawn point ID
+* Arena ID
+* Group ID
+* Side
 
 Developer mode objects are visible only to the administrator currently using it.
 
@@ -215,21 +243,20 @@ Performance was one of the main goals during development.
 <tr>
 <td valign="top" width="50%">
 
-- Smooth player teleportation
-- Optimized arena rotation
-- Full weapon management
-- No visual glitches during transitions between duels
+* Smooth player teleportation
+* Optimized arena rotation
+* Full weapon management
+* No visual glitches during transitions between duels
 
 </td>
 <td valign="top" width="50%">
 
-- Asynchronous database operations
-- Efficient task scheduling
-- Minimal server load
-- Stable operation with a large number of active arenas
+* Asynchronous database operations
+* Efficient task scheduling
+* Minimal server load
+* Stable operation with a large number of active arenas
 
 </td>
-</tr>
 </table>
 
 <div align="right"><a href="#top">Back to top</a></div>
@@ -240,17 +267,23 @@ Performance was one of the main goals during development.
 
 <div align="center">
 
-| Feature | Status | 
-|:---------|:------:|
-| 1v1 arena duels | ✅ | 
-| Private duels | ✅ |
-| On-the-fly arena editing | ✅ |
-| Weapon selection | ✅ |
-| Developer mode | ✅ | 
-| Fast opponent matching | ✅ |
-| Spawn editor | ✅ | 
-| Enable / disable arenas | ✅ |
-| Low server load | ✅ |
+| Feature                             | Status |
+| :---------------------------------- | :----: |
+| 1v1 arena duels                     |    ✅   |
+| Private duels                       |    ✅   |
+| Multiple Duel mini-modes            |    ✅   |
+| On-the-fly arena editing            |    ✅   |
+| Weapon selection                    |    ✅   |
+| Weapon selection via chat commands  |    ✅   |
+| Developer mode                      |    ✅   |
+| Arena -> Group -> Side management   |    ✅   |
+| Fast opponent matching              |    ✅   |
+| Spawn editor                        |    ✅   |
+| Enable / disable arenas             |    ✅   |
+| Configurable duel cooldown          |    ✅   |
+| Configurable weapon change cooldown |    ✅   |
+| Localization                        |    ✅   |
+| Low server load                     |    ✅   |
 
 </div>
 
@@ -268,10 +301,8 @@ Performance was one of the main goals during development.
 <img src="https://img.shields.io/badge/COUNTERSTRIKESHARP-REQUIRED-blue?style=flat-square&labelColor=1c1c1c">
 
 <p>
-    
-<b>METAMOD LINK:</b> https://github.com/alliedmodders/metamod-source</br>
-<b>UTILS LINK:</b> https://github.com/Pisex/cs2-menus</br>
-<b>COUNTERSTRIKESHARP</b> LINK: https://github.com/roflmuffin/CounterStrikeSharp
+
+<b>METAMOD LINK:</b> https://github.com/alliedmodders/metamod-source</br> <b>UTILS LINK:</b> https://github.com/Pisex/cs2-menus</br> <b>COUNTERSTRIKESHARP</b> LINK: https://github.com/roflmuffin/CounterStrikeSharp
 
 </p>
 
