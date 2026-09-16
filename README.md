@@ -336,4 +336,4 @@ Performance was one of the main goals during development.
 >
 > License purchases, activation, updates, and support are available exclusively through the official Discord server.
 
-<div align="right"><a href="#top">Back to top</a></div>
+<div align="right"><a href="#top">Back to top</a></div> 
