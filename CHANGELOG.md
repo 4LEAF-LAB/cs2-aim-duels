@@ -1,7 +1,7 @@
 # Changelog
 [РУССКАЯ ВЕРСИЯ](https://github.com/4LEAF-LAB/cs2-aim-duels/blob/main/CHANGELOG-RU.md)
 
-## What's Changed in 16.14-9-26
+## What's Changed in #16.14-9-26
 
 * Added new Duel mini-modes:
 
@@ -49,7 +49,7 @@
   * **EN**
   * Added support for custom translations.
 
-## What's Changed in 15.10-9-26
+## What's Changed in #15.10-9-26
 
 - Added support for Metamod 2.0 / Plugin API 18.
 - Migrated hooks from SourceHook to KHook.
@@ -57,6 +57,6 @@
 - Fixed plugin loading and compatibility issues.
 - Fixed various minor bugs and issues.
 
-## What's Changed in 14.04-8-26
+## What's Changed in #14.04-8-26
 
 - Initial public release of AIM DUELS.
